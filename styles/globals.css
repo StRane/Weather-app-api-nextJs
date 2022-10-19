@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base{
+  body{
+    @apply bg-emerald-600 !scrollbar-thin !scrollbar-track-transparent !scrollbar-thumb-blue-600 flex flex-col items-center align-middle;
+  }
+}
+
+@layer components{
+  .card{
+    @apply bg-red-600;
+  }
+  
+}
